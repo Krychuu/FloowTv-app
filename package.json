@@ -14,8 +14,8 @@
     "icon": "images/icon.png",
     "toolbar": false,
     "frame": false,
-    "width": 962,
-    "height": 600,
+    "width": 1020,
+    "height": 700,
     "min_width": 962,
     "min_height": 600,
     "resizable": true
