@@ -11,7 +11,7 @@ Settings = {
         // Used to check for the latest version
         "updateNotificationUrl": "http://popcorn-time.tv/update.json",
         // Used to check if there's an internet connection
-        "connectionCheckUrl": "http://www.google.com",
+        "connectionCheckUrl": "http://www.google.pl/",
         // YIFY Endpoint
         "yifyApiEndpoint": "https://yts.re/api/",
         // A mirror for YIFY (for users in the UK -Yify is blocked there-)
