@@ -12,7 +12,7 @@ var playTorrent = window.playTorrent = function (torrent, subs, movieModel, call
   var tmpFile = path.join(tmpFolder, tmpFilename);
 
   var numCores = (os.cpus().length > 0) ? os.cpus().length : 1;
-  var numConnections = 250;
+  var numConnections = 200;
 
   // Start Peerflix
   var peerflix = require('peerflix');
@@ -21,7 +21,7 @@ var playTorrent = window.playTorrent = function (torrent, subs, movieModel, call
     // Set the custom temp file
     path: tmpFile,
     //port: 554,
-    buffer: (6.5 * 1024 * 1024).toString(),
+    buffer: (5.5 * 1024 * 1024).toString(),
     connections: numConnections
   }, function (err, flix) {
     if (err) throw err;
@@ -30,7 +30,7 @@ var playTorrent = window.playTorrent = function (torrent, subs, movieModel, call
       loadedTimeout;
 
     flix.server.on('listening', function () {
-      var href = 'http://localhost:' + flix.server.address().port + '/';
+      var href = 'http://127.0.0.1:' + flix.server.address().port + '/';
 
       loadedTimeout ? clearTimeout(loadedTimeout) : null;
 
