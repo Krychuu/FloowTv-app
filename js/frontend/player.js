@@ -6,7 +6,7 @@ var playTorrent = window.playTorrent = function (torrent, subs, movieModel, call
   videoStreamer ? $(document).trigger('videoExit') : null;
 
   // Create a unique file to cache the video (with a microtimestamp) to prevent read conflicts
-  var tmpFolder = path.join(os.tmpDir(), 'Popcorn-Time')
+  var tmpFolder = path.join(os.tmpDir(), 'Floow-Tv')
   var tmpFilename = ( torrent.toLowerCase().split('/').pop().split('.torrent').shift() ).slice(0,100);
   tmpFilename = tmpFilename.replace(/([^a-zA-Z0-9-_])/g, '_') + '.mp4';
   var tmpFile = path.join(tmpFolder, tmpFilename);

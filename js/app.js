@@ -1,6 +1,6 @@
 var
     // Minimum percentage to open video
-    MIN_PERCENTAGE_LOADED = 0.5,
+    MIN_PERCENTAGE_LOADED = 1.5,
 
     // Minimum bytes loaded to open video
     MIN_SIZE_LOADED = 10 * 1024 * 1024,
@@ -30,7 +30,7 @@ var
     url = require('url'),
 
     // TMP Folder
-    tmpFolder = path.join(os.tmpDir(), 'Popcorn-Time'),
+    tmpFolder = path.join(os.tmpDir(), 'Floow-Tv'),
 
     // i18n module (translations)
     i18n = require("i18n");
@@ -149,7 +149,7 @@ if (!isDebug) {
 
 
 // Set the app title (for Windows mostly)
-win.title = 'Popcorn Time';
+win.title = 'Floow Tv';
 
 
 // Focus the window when the app opens

@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         files: [
           {
             src: 'libraries/win/ffmpegsumo.dll',
-            dest: 'build/releases/Popcorn-Time/win/Popcorn-Time/ffmpegsumo.dll',
+            dest: 'build/releases/Floow-Tv/win/Floow-Tv/ffmpegsumo.dll',
             flatten: true
           },
           {
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
           },
           {
             src: 'libraries/mac/ffmpegsumo.so',
-            dest: 'build/releases/Popcorn-Time/mac/Popcorn-Time.app/Contents/Frameworks/node-webkit Framework.framework/Libraries/ffmpegsumo.so',
+            dest: 'build/releases/Floow-Tv/mac/Popcorn-Time.app/Contents/Frameworks/node-webkit Framework.framework/Libraries/ffmpegsumo.so',
             flatten: true
           },
           {
@@ -97,7 +97,7 @@ module.exports = function(grunt) {
           },
           {
             src: 'libraries/linux64/libffmpegsumo.so',
-            dest: 'build/releases/Popcorn-Time/linux64/Popcorn-Time/libffmpegsumo.so',
+            dest: 'build/releases/Floow-Tv/linux64/Floow-Tv/libffmpegsumo.so',
             flatten: true
           },
           {
@@ -107,7 +107,7 @@ module.exports = function(grunt) {
           },
           {
             src: 'libraries/linux32/libffmpegsumo.so',
-            dest: 'build/releases/Popcorn-Time/linux32/Popcorn-Time/libffmpegsumo.so',
+            dest: 'build/releases/Floow-Tv/linux32/Floow-Tv/libffmpegsumo.so',
             flatten: true
           },
           {
@@ -120,13 +120,13 @@ module.exports = function(grunt) {
       package: {
         files: [
           {
-            src: 'build/releases/Popcorn-Time/Popcorn-Time.nw',
-            dest: 'build/releases/Popcorn-Time/linux32/Popcorn-Time/package.nw',
+            src: 'build/releases/Floow-Tv/Floow-Tv.nw',
+            dest: 'build/releases/Floow-Tv/linux32/Floow-Tv/package.nw',
             flatten: true
           },
           {
-            src: 'build/releases/Popcorn-Time/Popcorn-Time.nw',
-            dest: 'build/releases/Popcorn-Time/linux64/Popcorn-Time/package.nw',
+            src: 'build/releases/Floow-Tv/Floow-Tv.nw',
+            dest: 'build/releases/Floow-Tv/linux64/Floow-Tv/package.nw',
             flatten: true
           }
         ]
