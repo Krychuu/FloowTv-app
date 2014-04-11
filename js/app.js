@@ -1,6 +1,6 @@
 var
     // Minimum percentage to open video
-    MIN_PERCENTAGE_LOADED = 1.5,
+    MIN_PERCENTAGE_LOADED = 0.8,
 
     // Minimum bytes loaded to open video
     MIN_SIZE_LOADED = 10 * 1024 * 1024,
