@@ -3,7 +3,7 @@ var
     MIN_PERCENTAGE_LOADED = 0.8,
 
     // Minimum bytes loaded to open video
-    MIN_SIZE_LOADED = 100 * 1024 * 1024,
+    MIN_SIZE_LOADED = 50 * 1024 * 1024,
 
     // Configuration variable
     applicationRoot = './',

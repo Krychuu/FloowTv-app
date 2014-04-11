@@ -21,7 +21,7 @@ var playTorrent = window.playTorrent = function (torrent, subs, movieModel, call
     // Set the custom temp file
     path: tmpFile,
     //port: 554,
-    buffer: (5.5 * 1024 * 1024).toString(),
+    buffer: (3.5 * 1024 * 1024).toString(),
     connections: numConnections
   }, function (err, flix) {
     if (err) throw err;
