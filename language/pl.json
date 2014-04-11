@@ -1,4 +1,4 @@
-﻿{
+{
   "quit": "Wyjdź",
   "cancel": "Anuluj",
   "beforeQuit": "Na pewno chcesz wyjść z programu?",
@@ -15,9 +15,9 @@
   "connecting": "Łączenie...",
   "startingDownload": "Rozpoczęcie pobierania...",
   "downloading": "Pobieranie...",
-  "UpgradeVersion": "Zaktualizuj Floow Tv",
-  "UpgradeVersionDescription": "Floow Tv %s właśnie został wydany. Pobierz już teraz!",
-  "legalDisclaimer": "Floow Tv pobiera oraz udostępnia filmy korzystając z torrentów, co może być nielegalne w Twoim kraju.",
+  "UpgradeVersion": "Zaktualizuj Popcorn Time",
+  "UpgradeVersionDescription": "Popcorn Time %s właśnie został wydany. Pobierz już teraz!",
+  "legalDisclaimer": "Popcorn Time pobiera oraz udostępnia filmy korzystając z torrentów, co może być nielegalne w Twoim kraju.",
   "legalDisclaimerResponsible": "Nie jestesmy odpowiedzialni za problemy tym spowodowane, więc upewnij się, że rozumiesz nasze warunki prawne zanim zaczniesz korzystać z aplikacji.",
   "legalDisclaimerAccept": "Rozumiem",
   "legalDisclaimerCancel": "Wyjdź",
